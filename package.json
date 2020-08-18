@@ -9,6 +9,8 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-npmcopy": "^0.2.0",
     "grunt-umd": "^3.0.0",
+    "knockout": "^3.5.1",
+    "knockout-daterangepicker": "0.0.9",
     "load-grunt-config": "^0.19.2"
   },
   "private": true

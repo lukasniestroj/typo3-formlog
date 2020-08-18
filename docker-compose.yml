@@ -2,7 +2,13 @@ version: '3'
 
 services:
   app:
-    image: thecodingmachine/php:7.2-v3-fpm-node10
+    build:
+      context: .docker/app
+      args:
+        PHP_VERSION: 7.2
+        NODE_PACKAGES: >-
+          grunt-cli
+    image: pagemachine/typo3-formlog:v1
     environment:
       typo3DatabaseHost: mysql
       typo3DatabasePassword: root

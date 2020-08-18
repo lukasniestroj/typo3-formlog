@@ -2,8 +2,7 @@ module.exports = {
   options: {
     compress: true,
     ieCompat: false,
-    // Make LESS files from components accessible
-    paths: 'bower_components',
+    paths: 'node_modules',
   },
   files: {
     cwd: '<%= paths.resources.private %>Less/',

@@ -3,5 +3,6 @@ default:
   - clean:js
   - bower
   - less
+  - npmcopy
   - umd
   - uglify

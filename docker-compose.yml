@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: thecodingmachine/php:7.2-v2-fpm
+    image: thecodingmachine/php:7.2-v3-fpm-node10
     environment:
       typo3DatabaseHost: mysql
       typo3DatabasePassword: root
